@@ -8,23 +8,25 @@
     background-position: center;
     background-repeat: no-repeat;
     background: url("../media/vegetales.jpg")bottom / cover fixed #00000090;
-    box-shadow: 0 0 45px #000e;
+    box-shadow: 0 0 45px #000;
     background-blend-mode: darken;
 }
 .logo_encabezado{
     display: flex;
-    position:fixed;
+    position:absolute;
     height: 30%;
     width: 15%;
-    top: 18%;
+    top: 15%;
+    margin-left: 3%;
     border-radius: 50%;
 
 }
 .titulo_encabezado{
-    position: fixed;
+    z-index: 100;
+    position: relative;
     margin-left: 32%;
     top: 10%;
-    width: 100%;    
+    width: 40%;    
     text-align: center;
     font-size: 50px;
     color: #ffff;
@@ -35,11 +37,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: absolute;
 }
 .contacto_encabezado{
-    margin-left: 75%;
-    margin-top: 11%;
+    margin-top: 9%;
+    margin-left: 3%;
     text-align: left;
     font-size: 22px;
     color: #fff;
@@ -55,19 +57,14 @@
     width: 100%;
 }
 .columna1{
-    width: 20%;
+    width: 25%;
 
 }
 .columna2{
     width: 60%;
-    background-color: #811779;
-}
-.columna3{
-    width: 20%;
-    background-color: #ff9922;
 }
 .publicidad{
-    margin-left: 10%;
+    margin-left:3%;
     margin-right: 10%;
     margin-top: 20px;
     width: 80%;
@@ -75,4 +72,26 @@
 }
 body{
     margin: 0;
+    background: url("../media/tabla.jpg");
+}
+.imgbody1{
+    margin-top: 50px;
+    width: 50%;
+    margin-left: 25%;
+    box-shadow: #000;
+}
+.imgbody2{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 150px;
+}
+.imgbody3{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 150px;
+}
+.imgbody4{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 150px;
 }
